@@ -27,7 +27,14 @@ nav {
   background: #0b1020;
   border-bottom: 1px solid #333;
 }
+.logo¨{
+  height: 80px;
+  width: auto;
+display: block;
+margin: 0 auto;
+padding:  0;
 
+}
 nav a {
   padding: 12px 20px;
   color: #ccc;
