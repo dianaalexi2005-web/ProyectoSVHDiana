@@ -27,12 +27,12 @@ nav {
   background: #0b1020;
   border-bottom: 1px solid #333;
 }
-.logo¨{
-  height: auto;
-  width: auto;
-display: block;
-margin: 0 auto;
-padding:  0;
+.logo{
+  height: 600px;
+  width: 1000px;
+  display: block;
+  margin: 0 auto;
+  padding:  0;
 
 }
 nav a {
@@ -58,7 +58,8 @@ nav a.activo {
 }
 
 h2 {
-  color: #00ff6259;
+  color: #00ff6259; 
+  text-align: center;
 }
 
 .tarjetas {
