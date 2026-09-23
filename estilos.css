@@ -20,6 +20,13 @@ header h1 {
   font-size: 48px;
   text-transform: uppercase;
 }
+.logo {
+  height: 500px;
+  width: 100%;
+display: block;
+margin: 0 auto;
+padding:  0px;
+}
 
 nav {
   display: flex;
@@ -40,8 +47,8 @@ nav a {
 
 nav a:hover,
 nav a.activo {
-  background: #1f2937;
-  color: #00ff2a;
+  background: #000000;
+  color: #967eb4;
 }
 
 .contenedor {
@@ -51,9 +58,14 @@ nav a.activo {
 }
 
 h2 {
-  color: #00ff6259;
+  color: #5f8fcfbb;
+  text-align: center;
 }
-
+p {  
+  text-align: center;
+  font-size: 16px;
+  color: #e7eeee;
+}
 .tarjetas {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -65,23 +77,41 @@ h2 {
   background: #111827;
   border-radius: 8px;
   padding: 15px;
-  border: 1px solid #1f2937;
+  border: 1px solid #745591;
+}
+.tarjeta p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #d1d5db;
+  text-align: left;
+}
+
+.subTarjeta {
+  display: inline-block;
+  color: #085e1e;
+  font-weight: bold;
+  width: 20%;
 }
 
 .tarjeta h3 {
   margin-top: 0;
-  color: #7dd3fc;
+  color: #737577;
 }
-
+.tarjeta img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
 .galeria-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
   gap: 15px;
   margin-top: 20px;
 }
 
 .galeria-item {
-  background: #111827;
+  background: #0c0c0c;
   border-radius: 8px;
   padding: 10px;
   text-align: center;
@@ -90,12 +120,14 @@ h2 {
 }
 
 form {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 500px;
-  margin-top: 20px;
-  background: #111827;
+  margin-top: 25px;
+  background: #453c50;
   padding: 20px;
   border-radius: 8px;
-  border: 1px solid #1f2937;
+  border: 1px solid #709bd6;
 }
 
 label {
@@ -134,8 +166,18 @@ footer {
   text-align: center;
   padding: 15px;
   font-size: 12px;
-  color: #9ca3af;
-  border-top: 1px solid #333;
-  background: #050816;
+  color: #8b7692;
+  border-top: 1px solid #111010;
+  background: #000000;
   margin-top: 30px;
+}
+footer a {
+  color: #8b7692;
+  text-decoration: none;
+}
+footer a:link {
+  color: #8b7692;
+}
+footer a:visited {
+  color: #8b7692;
 }
